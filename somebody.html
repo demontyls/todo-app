@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" 
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script defer src="index.js" ></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){       
+    addTodoApp(document.getElementById('x-todo'),'Дела кого-то', 'Somebody');
+    })
+    </script>
+</head>
+<body>
+    <div class="container mb-5">
+        <nav class="nav">
+            <a class="nav-link" href="index.html">Мои Дела</a>
+            <a class="nav-link" href="mark.html">Дела Марка</a>
+            <a class="nav-link" href="somebody.html">Дела кого-то</a>
+        </nav>
+    </div>
+
+    <!-- <div id="me-todo" class="container mb-5"></div>
+    <div id="mark-todo" class="container mb-5"></div> -->
+    <div id="x-todo" class="container "></div>
+    
+</body>
+</html>
